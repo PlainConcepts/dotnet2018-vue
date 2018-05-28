@@ -5,6 +5,12 @@ Modern web app on Azure with Typescript and NuxtJs.
 
 An example application to list cities in the world and the weather in each of them.
 
+<img src="https://i.imgur.com/R73jNq9.png" width="600" title="Logo">
+
+### Choose your favorite example
+[<img src="https://raw.githubusercontent.com/CKGrafico/Frontend-Boilerplates/gh-pages/resources/techs/vue.png" width="125" title="Vuejs">](https://github.com/PlainConcepts/dotnet2018-vue/tree/vuejs)
+[<img src="https://raw.githubusercontent.com/CKGrafico/Frontend-Boilerplates/gh-pages/resources/techs/nuxt.png" width="125" title="Nuxt">](https://github.com/PlainConcepts/dotnet2018-vue/tree/nuxtjs)
+
 ### Prerequisites
 
 * [NodeJS](https://nodejs.org/es/) - The package manager to install dependencies
@@ -61,8 +67,9 @@ where `{publishing_directory}` = your public folder
 
 ## Authors
 
-* **Quique Fdez Guerra** - [@CKGrafico](https://twitter.com/ckgrafico)
-* **Juan Carlos López** - [@jcarloslr10](https://twitter.com/jcarloslr10)
+
+| <img src="https://i.imgur.com/CcJ7vXL.jpg" width="150"><br>**Quique Fdez Guerra**<br>[👨‍💻](https://github.com/CKGrafico)[🌍](http://ckgrafico.com)[🐦](https://twitter.com/CKGrafico) | <img src="https://i.imgur.com/W8Ks7Ss.jpg" width="150"><br>**Juan Carlos**<br>[👨‍💻](https://github.com/jcarloslr10)[🌍](http://plainconcepts.com)[🐦](https://twitter.com/jcarloslr10)
+| :---: | :---: |
 
 ## License
 
