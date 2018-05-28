@@ -8,8 +8,8 @@ An example application to list cities in the world and the weather in each of th
 ### Prerequisites
 
 * [NodeJS](https://nodejs.org/es/) - The package manager to install dependencies
-* [VSCode](https://code.visualstudio.com/Download) - To code the examples
-* [Git](https://git-scm.com/) - To get the code of the exercises
+* [VSCode](https://code.visualstudio.com/Download) - To code the application
+* [Git](https://git-scm.com/) - To get the code of the application
 
 ### Installing and Running
 
