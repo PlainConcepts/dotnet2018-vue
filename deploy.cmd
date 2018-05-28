@@ -101,8 +101,7 @@ call :SelectNodeVersion
 IF EXIST "%DEPLOYMENT_TARGET%\package.json" (
  pushd "%DEPLOYMENT_TARGET%"
  call :ExecuteCmd !NPM_CMD! install
- call :ExecuteCmd !NPM_CMD! rebuild node-sass --force
- ::IF !ERRORLEVEL! NEQ 0 goto error
+ IF !ERRORLEVEL! NEQ 0 goto error
  popd
 )
 
