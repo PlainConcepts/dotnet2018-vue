@@ -5,6 +5,8 @@ Modern web app on Azure with Typescript and VueJs.
 
 An example application to list cities in the world and the weather in each of them.
 
+![logo](https://i.imgur.com/wRAzxYi.png)
+
 ### Prerequisites
 
 * [NodeJS](https://nodejs.org/es/) - The package manager to install dependencies
@@ -61,8 +63,9 @@ where `{publishing_directory}` = your public folder
 
 ## Authors
 
-* **Quique Fdez Guerra** - [@CKGrafico](https://twitter.com/ckgrafico)
-* **Juan Carlos López** - [@jcarloslr10](https://twitter.com/jcarloslr10)
+
+| <img src="https://i.imgur.com/CcJ7vXL.jpg" width="150"><br>**Quique Fdez Guerra**<br>[👨‍💻](https://github.com/CKGrafico)[🌍](http://ckgrafico.com)[🐦](https://twitter.com/CKGrafico) | <img src="https://i.imgur.com/W8Ks7Ss.jpg" width="150"><br>**Juan Carlos**<br>[👨‍💻](https://github.com/jcarloslr10)[🌍](http://plainconcepts.com)[🐦](https://twitter.com/jcarloslr10)
+| :---: | :---: |
 
 ## License
 
