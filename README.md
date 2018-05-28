@@ -5,11 +5,11 @@ Modern web app on Azure with Typescript and NuxtJs.
 
 An example application to list cities in the world and the weather in each of them.
 
-<img src="https://i.imgur.com/R73jNq9.png" width="450" title="Logo">
+<img src="https://i.imgur.com/R73jNq9.png" width="600" title="Logo">
 
 ### Choose your favourite example
-[<img src="https://raw.githubusercontent.com/CKGrafico/Frontend-Boilerplates/gh-pages/resources/techs/vue.png" width="150" title="Vuejs">](https://github.com/PlainConcepts/dotnet2018-vue/tree/vuejs)
-[<img src="https://raw.githubusercontent.com/CKGrafico/Frontend-Boilerplates/gh-pages/resources/techs/nuxt.png" width="150" title="Nuxt">](https://github.com/PlainConcepts/dotnet2018-vue/tree/nuxtjs)
+[<img src="https://raw.githubusercontent.com/CKGrafico/Frontend-Boilerplates/gh-pages/resources/techs/vue.png" width="125" title="Vuejs">](https://github.com/PlainConcepts/dotnet2018-vue/tree/vuejs)
+[<img src="https://raw.githubusercontent.com/CKGrafico/Frontend-Boilerplates/gh-pages/resources/techs/nuxt.png" width="125" title="Nuxt">](https://github.com/PlainConcepts/dotnet2018-vue/tree/nuxtjs)
 
 ### Prerequisites
 
