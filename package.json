@@ -8,12 +8,10 @@
     "preprod": "gulp --env=production",
     "prod": "webpack --env.NODE_ENV=production",
     "postprod": "rimraf ./dist/css/scripts",
-    "dev": "gulp --env=development",
-    "postdev": "webpack --env.NODE_ENV=development",
     "local": "gulp --env=local",
     "postlocal": "webpack --env.NODE_ENV=local",
-    "start": "npm run local",
-    "poststart": "concurrently \"gulp watcher --env=local\" \"webpack --env.NODE_ENV=local --watch\" --names \"🥛,📦\" --prefix name --kill-others",
+    "dev": "npm run local",
+    "postdev": "concurrently \"gulp watcher --env=local\" \"webpack --env.NODE_ENV=local --watch\" --names \"🥛,📦\" --prefix name --kill-others",
     "tree": "tree -l 5 -a  --ignore 'node_modules,/, .git/,  .temp/, dist/, .DS_Store'"
   },
   "dependencies": {
