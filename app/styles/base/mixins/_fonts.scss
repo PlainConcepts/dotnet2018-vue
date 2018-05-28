@@ -1,3 +1,4 @@
+/* stylelint-disable */
 // @Author https://gist.github.com/jonathantneal/d0460e5c2d5d7f9bc5e6
 
 // =============================================================================
@@ -40,5 +41,5 @@
 }
 
 @mixin font-include($font, $type, $weight: null, $style: null) {
-  @include font-face($font, '/assets/fonts/' + $font + '/' + $font + '-' + $type, $weight, $style);
+  @include font-face($font, '../../assets/fonts/' + $font + '/' + $font + '-' + $type, $weight, $style);
 }

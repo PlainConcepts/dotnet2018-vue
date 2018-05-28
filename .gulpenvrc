@@ -9,14 +9,10 @@
       "aliases": []
     },
     {
-      "name": "local",
-      "aliases": []
-    },
-    {
       "name": "test",
       "aliases": []
     }
   ],
 
-  "default": "local"
+  "default": "development"
 }

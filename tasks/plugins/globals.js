@@ -11,8 +11,7 @@ module.exports = (env, envs) => {
 
     const plugin = {
         [envs.production]: defaultConfig,
-        [envs.development]: defaultConfig,
-        [envs.local]: defaultConfig
+        [envs.development]: defaultConfig
     };
 
     return plugin[env];

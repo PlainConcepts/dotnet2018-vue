@@ -1,7 +1,7 @@
 # dotnet2018-vue
-## VueJS
+## NuxtJS
 
-Modern web app on Azure with Typescript and VueJs.
+Modern web app on Azure with Typescript and NuxtJs.
 
 An example application to list cities in the world and the weather in each of them.
 
