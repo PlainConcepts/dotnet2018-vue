@@ -2,7 +2,6 @@
 .sass-cache/
 .test/
 .vscode/
-.nuxt/
 
 npm-debug.log
 
