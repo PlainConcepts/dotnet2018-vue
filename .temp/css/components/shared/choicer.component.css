@@ -1,0 +1,1 @@
+.choicer{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;list-style:none}.choicer-item{cursor:pointer;text-transform:capitalize}.choicer-item.is-active{color:#289679;font-weight:700;text-decoration:underline}.choicer-item:hover{color:#33be99}

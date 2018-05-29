@@ -3,7 +3,7 @@
 .test/
 .vscode/
 .nuxt/
-.temp/
+
 npm-debug.log
 
 # Distribution folders
