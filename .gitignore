@@ -2,7 +2,7 @@
 .sass-cache/
 .test/
 .vscode/
-
+.temp/
 npm-debug.log
 
 # Distribution folders
