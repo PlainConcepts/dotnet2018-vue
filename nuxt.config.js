@@ -3,6 +3,7 @@ const webpack = require('webpack');
 const path = require('path');
 const { paths, environments } = require('./tasks/config/options');
 const _ = require('./tasks/config/helpers');
+const avatarsMiddleware = require('adorable-avatars');
 
 let rules = require('require.all')('./tasks/rules');
 
@@ -28,7 +29,7 @@ const modules = [
     '~/modules/typescript',
     '~/modules/separated-files',
     '~/modules/components-name',
-    '~/modules/i18n-json'
+    '~/modules/languages'
 ];
 
 module.exports = {
@@ -43,10 +44,11 @@ module.exports = {
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
         ]
     },
-    loading: { color: '#1ABC9C' },
+    loading: { color: '#054A59' },
     plugins,
     modules,
     router: {
+        base: environment !== 'development' ? '/FooCards-Nuxt/' : '/', // Only for demo
         middleware: ['settings'],
         linkActiveClass: 'is-active'
     },
@@ -73,6 +75,9 @@ module.exports = {
     buildDir: './.temp/.nuxt',
     css: ['./.temp/css/styles/app.css'],
     generate: {
-        dir: 'dist'
-    }
+        dir: 'docs' // because gh pages, this is a demo
+    },
+    serverMiddleware: [
+        '~~/fakeapi/index.js'
+    ]
 }

@@ -6,5 +6,8 @@
 .temp/
 npm-debug.log
 
+# Distribution folders
+dist/
+
 # Packages folders
 node_modules/

@@ -10,6 +10,7 @@ declare module 'vue/types/vue' {
   interface Vue {
     $router: VueRouter;
     $t: (key: string, params?: any) => string;
+    localePath: (path: string) => string;
   }
 }
 

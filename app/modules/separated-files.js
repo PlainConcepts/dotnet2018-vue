@@ -2,23 +2,16 @@ const loaderUtils = require('loader-utils');
 const path = require('path')
 const res = rel => path.resolve(__dirname, rel)
 
-/**
- * Allows developers to use .vue files or
- * separated files following this structure
- * NAMEOFTHEFILE.html.vue
- * NAMEOFTHEFILE.ts
- * NAMEOFTHEFILE.scss
- */
 module.exports = function () {
   // Clean paths for pages
   this.nuxt.options.router.extendRoutes = (routes) => {
     routes.forEach(route => {
-      // For separated files
-      if (route.name.includes('.page.html')) {
-        const folders = route.path.split('/');
-        route.path = route.path.replace('/' + folders[folders.length - 1], '');
-        route.name = route.name.replace('-' + folders[folders.length - 1], '');
-      }
+        // For separated files
+        if (route.name.includes('.page.html')) {
+            const folders = route.path.split('/');
+            route.path = route.path.replace('/' +folders[folders.length - 1], '');
+            route.name = route.name.replace('-' +folders[folders.length - 1], '');
+        }
     })
   };
 
@@ -26,7 +19,7 @@ module.exports = function () {
   this.extendBuild(config => {
     config.module.rules.push(
       {
-        test: /\.vue$/,
+        test: /\.vue$/, // /\.html\.vue$/
         enforce: 'pre',
         loader: 'separated-files'
       }
